@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -157,20 +157,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="activador.h" />
+    <ClInclude Include="circulo.h" />
     <ClInclude Include="enemy.h" />
+    <ClInclude Include="estado.h" />
+    <ClInclude Include="estado1.h" />
+    <ClInclude Include="figura.h" />
+    <ClInclude Include="fuego.h" />
     <ClInclude Include="game.h" />
+    <ClInclude Include="letrero.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="nulo.h" />
+    <ClInclude Include="pared.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="real.h" />
+    <ClInclude Include="rectangulo.h" />
+    <ClInclude Include="selector.h" />
     <ClInclude Include="snake.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="activador.cpp" />
+    <ClCompile Include="circulo.cpp" />
     <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="estado.cpp" />
+    <ClCompile Include="estado1.cpp" />
+    <ClCompile Include="figura.cpp" />
+    <ClCompile Include="fuego.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="letrero.cpp" />
+    <ClCompile Include="level.cpp" />
+    <ClCompile Include="nulo.cpp" />
+    <ClCompile Include="pared.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="real.cpp" />
+    <ClCompile Include="rectangulo.cpp" />
+    <ClCompile Include="selector.cpp" />
     <ClCompile Include="snake.cpp" />
     <ClCompile Include="snakegame.cpp" />
   </ItemGroup>

@@ -27,6 +27,45 @@
     <ClInclude Include="enemy.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="figura.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="circulo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangulo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="activador.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="fuego.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="pared.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="selector.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="letrero.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="nulo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="real.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="estado.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="estado1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -42,6 +81,45 @@
       <Filter>Archivos de encabezado\Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="enemy.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="figura.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="circulo.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangulo.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="activador.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="fuego.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="pared.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="selector.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="letrero.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="nulo.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="real.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="estado.cpp">
+      <Filter>Archivos de encabezado\Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="estado1.cpp">
       <Filter>Archivos de encabezado\Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

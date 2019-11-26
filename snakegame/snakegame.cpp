@@ -1,20 +1,13 @@
 // snakegame.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
-
+#pragma warning(disable: all)
 #include "pch.h"
 #include <iostream>
 #include "game.h"
 int main()
 {
 	game a;
-	a.goal(4, 4, {  {1,1,1},
-					{0,0,1}, 
-					{1,1,1}, 
-					{1,0,0}, 
-					{1,1,1}, });
-					
 	a.run();
-	
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
